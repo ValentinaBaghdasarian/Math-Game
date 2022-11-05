@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-image: url("./img/blackboard-inscribed-with-scientific-formulas-and-calculations-in-mathematics-science-and-education-background-2GYBJM3.jpg")
+        }
+
+        button{
+            width: 400px;
+            height: 40px;
+            position: absolute;
+            left: 35%;
+            top: 50%;
+            background: #F07427;
+            border: none;
+            color: #fff;
+            font-size: 30px;
+            border-radius: 6px;
+            box-shadow: 1px 5px 10px #fff;
+        }
+
+        button:hover {
+            cursor: pointer;
+            opacity: 0.9;
+        }
+
+        span {
+            font-size: 35px;
+            color: #fff;
+            text-align: center;
+            background: #F07427;
+        }
+
+        form {
+            font-size: 20px;
+            margin: 5px 0px;
+            color:#fff;
+            background:#f39459;
+            width: 237px;
+        }
+
+        form label, input{
+            margin: 10px 3px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="page1">
+        <div>
+            <span>Select the level</span>
+            <form >
+                <input type="radio" name="fav_language" id="simple" value="simple">
+                <label for="level1">Simple</label><br>
+                <input type="radio" name="fav_language" id="medium" value="medium">
+                <label for="level1">Medium</label><br>
+                <input type="radio" name="fav_language" id="hard" value="hard">
+                <label for="level1">Hard</label><br>
+            </form>
+        </div>
+        <button id="startBtn" onclick="document.location = './index.html'">
+            START
+        </button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
